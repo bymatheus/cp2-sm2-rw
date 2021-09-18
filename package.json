@@ -4,5 +4,8 @@
   "description": "Checkpoint 1 do segundo semestre de Responsive",
   "main": "index.js",
   "repository": "https://github.com/bymatheus/cp1-sm2-rw.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
 }
