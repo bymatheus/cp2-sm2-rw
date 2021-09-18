@@ -1,0 +1,8 @@
+{
+  "name": "cp1-sm2",
+  "version": "1.0.0",
+  "description": "Checkpoint 1 do segundo semestre de Responsive",
+  "main": "index.js",
+  "repository": "https://github.com/bymatheus/cp1-sm2-rw.git",
+  "license": "MIT"
+}
