@@ -8,10 +8,84 @@
     <!-- Bootstrap CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>Hello, world!</title>
+    <title> Checkpoint 01 - 2º Semestre - Responsive Web Design </title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#fotos">Fotos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>         
+    </nav>
+
+    <header id="topo">
+      <h1>O SITE</h1>
+      <h1>Professor - Ensino Superior</h1>
+      <p>Ministro aulas nas áreas de, Engenharia de Software, Desenvolvimento Web com diversas linguagens atuais. Iniciei minha carreira como continuo em empresas de informática o que me deixou mais próximo da área de TI, tornando mais fácil o meu desenvolvimento como programador ao longo dos anos. Sempre tive ótimo instrutores e amigos que me ajudavam na caminhada do conhecimento, então isso com certeza deve ter me influenciado na minha carreira hoje.</p>
+      <a href="#servicos" class="botao">Ver Mais</a>
+    </header>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Eu sou Alexandre. Sou professor da fiap mais de 10 anos. Dou aula em outras instituições de ensino também. Porém aqui na fiap eu tive um desenvolvimento muito grande por causa do network e também por causa do tamanho da fiap no mercado.</p>
+      <a href="#contato" class="botao">Contrate Agora</a>
+    </section>
+
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <div>
+        <img src="./img/desenvolvimento.jpg" alt="Computadores"/>
+        <h3>Desenvolvimento</h3>
+        <p>Realizamos serviço de  desenvolvimento Web com as melhores tecnologias do mercado.</p>
+      </div>
+      <div>
+        <img src="./img/cursos.png" alt="Notebooks"/>
+        <h3>Cursos</h3>
+        <p>Oferecemos minicursos remotos, para s linguagens que estão em alta na Web hoje.</p>
+      </div>
+      <div>
+        <img src="./img/eventos.jpg" alt="Fone de Ouvido"/>
+        <h3>Workshops</h3>
+        <p>Produzimos Workshops para todo o país.</p>
+      </div>
+      <div>
+        <img src="./img/seguranca-info.png" alt="Texto"/>
+        <h3>Segurança da informação</h3>
+        <p>Criamos projetos para grandes empresas. Consulte um de nossos especialistas.</p>
+      </div>
+    </section>
+
+    <section id="fotos">
+      <h2>Fotos</h2>
+      <img src="./img/backbone.jpg" alt="Rede de computadores">
+      <img src="./img/cidade.jpg" alt="cidade virtual">
+      <img src="./img/comunicao.jpg" alt="Rede de computadores">
+      <img src="./img/icones.png" alt="icones de dispositivos e redes sociais">
+      <img src="./img/internet.jpg" alt="internet">
+      <img src="./img/rede.jpg" alt="Rede de virtual">
+    </section>
+    
+    <section id="contato">
+      <h2>Contatos</h2>
+      <p>Fale Conosco</p>
+
+      <div>
+        <img src="./img/tel.png" alt="telefone">
+        <p><a href="tel:11987344534">(11)9 8734-4534</a></p>
+      </div>
+      <div>
+        <img src="./img/mail.png" alt="telefone">
+        <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <a href="#topo" class="botao">Voltar</a>
+      <p>Desenvolvido por <span>Desenvolvedor</span></p>
+      <p>Todos os direitos reservados. 2021&copy;</p>
+    </footer>
 
     <script src="./dist/js/bootstrap.bundle.min.js"></script>
   </body>
