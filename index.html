@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./dist/css/estilo.css" rel="stylesheet" />
     <title>Checkpoint 01 - 2º Semestre - Responsive Web Design</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -39,11 +40,11 @@
       </div>
     </nav>
 
-    <main class="container-fluid text-center" id="topo">
+    <main class="container-fluid text-center main" id="topo">
       <div class="row">
         <section class="col-12">
           <h1>O SITE</h1>
-          <h1>Professor - Ensino Superior</h1>
+          <h2>Professor - Ensino Superior</h2>
           <p>
             Ministro aulas nas áreas de, Engenharia de Software, Desenvolvimento
             Web com diversas linguagens atuais. Iniciei minha carreira como
@@ -53,33 +54,38 @@
             amigos que me ajudavam na caminhada do conhecimento, então isso com
             certeza deve ter me influenciado na minha carreira hoje.
           </p>
-          <a href="#servicos" class="botao">Ver Mais</a>
+          <a href="#servicos" class="btn btn-primary">Ver Mais</a>
         </section>
       </div>
     </main>
 
-    <section class="container-fluid text-center">
-      <div class="row">
-        <section class="col-12">
-          <h2>Sobre</h2>
-          <p>
-            Eu sou Alexandre. Sou professor da fiap mais de 10 anos. Dou aula em
-            outras instituições de ensino também. Porém aqui na fiap eu tive um
-            desenvolvimento muito grande por causa do network e também por causa
-            do tamanho da fiap no mercado.
-          </p>
-          <a href="#contato" class="botao">Contrate Agora</a>
-        </section>
+    <section class="container-fluid text-center about">
+      <div class="container">
+        <div class="row">
+          <section class="col-12">
+            <h2>Sobre</h2>
+            <p>
+              Eu sou Alexandre. Sou professor da fiap mais de 10 anos. Dou aula
+              em outras instituições de ensino também. Porém aqui na fiap eu
+              tive um desenvolvimento muito grande por causa do network e também
+              por causa do tamanho da fiap no mercado.
+            </p>
+            <a href="#contato" class="btn btn-primary">Contrate Agora</a>
+          </section>
+        </div>
       </div>
     </section>
 
-    <article class="container-fluid" id="servicos">
+    <article class="container-fluid services" id="servicos">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="col-12 text-center">
+            <h2 class="mb-5">Serviços</h2>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 service text-center">
             <img
               src="./dist/images/desenvolvimento.jpg"
-              class="img-fluid"
+              class="img-fluid d-block mx-auto"
               alt="Computadores"
             />
             <h3>Desenvolvimento</h3>
@@ -88,10 +94,10 @@
               tecnologias do mercado.
             </p>
           </div>
-          <div class="col-3 col-sm-6 col-lg-3 text-center">
+          <div class="col-3 col-sm-6 col-lg-3 service text-center">
             <img
               src="./dist/images/cursos.png"
-              class="img-fluid"
+              class="img-fluid d-block mx-auto"
               alt="Notebooks"
             />
             <h3>Cursos</h3>
@@ -100,19 +106,19 @@
               na Web hoje.
             </p>
           </div>
-          <div class="col-3 col-sm-6 col-lg-3 text-center">
+          <div class="col-3 col-sm-6 col-lg-3 service text-center">
             <img
               src="./dist/images/eventos.jpg"
-              class="img-fluid"
+              class="img-fluid d-block mx-auto"
               alt="Fone de Ouvido"
             />
             <h3>Workshops</h3>
             <p>Produzimos Workshops para todo o país.</p>
           </div>
-          <div class="col-3 col-sm-6 col-lg-3 text-center">
+          <div class="col-3 col-sm-6 col-lg-3 service text-center">
             <img
               src="./dist/images/seguranca-info.png"
-              class="img-fluid"
+              class="img-fluid d-block mx-auto"
               alt="Texto"
             />
             <h3>Segurança da informação</h3>
@@ -125,7 +131,7 @@
       </div>
     </article>
 
-    <section class="container-fluid" id="fotos">
+    <section class="container-fluid pictures" id="fotos">
       <div class="row">
         <div class="col-12 text-center p-0">
           <h2>Fotos</h2>
@@ -163,10 +169,10 @@
       </div>
     </section>
 
-    <aside class="container text-center" id="contato">
+    <aside class="container text-center contact" id="contato">
       <div class="row">
         <div class="col-12">
-          <h2>Contatos</h2>
+          <h2 class="mb-5">Contatos</h2>
           <p>Fale Conosco</p>
 
           <img src="./dist/images/tel.png" alt="telefone" class="img-fluid" />
@@ -182,11 +188,11 @@
       </div>
     </aside>
 
-    <footer class="contianer-fluid">
+    <footer class="contianer-fluid footer">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <a href="#topo" class="botao">Voltar</a>
+            <a href="#topo" class="btn btn-primary mb-3">Voltar</a>
             <p>Desenvolvido por <span>Desenvolvedor</span></p>
             <p>Todos os direitos reservados. 2021&copy;</p>
           </div>
