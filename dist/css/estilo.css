@@ -33,3 +33,44 @@ body {
   background-repeat: no-repeat;
   color: #fff;
 }
+
+/* ===================================
+-> About
+=================================== */
+.about {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  color: #fff;
+  background-color: #191970;
+}
+
+/* ===================================
+-> About
+=================================== */
+.services {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.service img {
+  width: 7rem;
+  margin-bottom: 2rem;
+}
+
+/* ===================================
+-> Contact
+=================================== */
+.contact {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/* ===================================
+-> Footer
+=================================== */
+.footer {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  color: #fff;
+  background-color: #191970;
+}
