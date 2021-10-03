@@ -58,3 +58,9 @@
 // Helpers
 @import "./helpers/variables";
 @import "./helpers/mixins";
+
+// Components
+@import "./layout/components/texts";
+@import "./layout/components/links";
+@import "./layout/components/nav";
+@import "./layout/components/footer";

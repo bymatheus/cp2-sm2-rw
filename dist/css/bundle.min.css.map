@@ -85,7 +85,11 @@
         "../../node_modules/bootstrap/scss/helpers/_vr.scss",
         "../../node_modules/bootstrap/scss/utilities/_api.scss",
         "../style/helpers/_variables.scss",
-        "../style/helpers/_mixins.scss"
+        "../style/helpers/_mixins.scss",
+        "../style/layout/components/_texts.scss",
+        "../style/layout/components/_links.scss",
+        "../style/layout/components/_nav.scss",
+        "../style/layout/components/_footer.scss"
     ],
     "names": [],
     "file": "bundle.min.css"
