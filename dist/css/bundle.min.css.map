@@ -89,7 +89,11 @@
         "../style/layout/components/_texts.scss",
         "../style/layout/components/_links.scss",
         "../style/layout/components/_nav.scss",
-        "../style/layout/components/_footer.scss"
+        "../style/layout/components/_footer.scss",
+        "../style/layout/sessions/_main.scss",
+        "../style/layout/sessions/_about.scss",
+        "../style/layout/sessions/_services.scss",
+        "../style/layout/sessions/_contact.scss"
     ],
     "names": [],
     "file": "bundle.min.css"
