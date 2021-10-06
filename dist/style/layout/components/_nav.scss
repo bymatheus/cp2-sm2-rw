@@ -1,0 +1,12 @@
+.navbar {
+  background-color: $primaryColor;
+  ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .nav-link {
+    color: $white !important;
+    font-size: 1.5rem;
+  }
+}
