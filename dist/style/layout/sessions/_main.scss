@@ -1,0 +1,7 @@
+.main {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background-image: url("../images/fundo-pc.jpg");
+  @include backgroundPattern;
+  color: $white;
+}
